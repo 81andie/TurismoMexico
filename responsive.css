@@ -60,8 +60,8 @@
 
 @media(min-width: 1025px) {
     .logo {
-        width: 32%;
-        height: 32%;
+        width: 12%;
+        height: 12%;
         border: 2px solid #95F9E3;
         border-radius: 50%;
 
@@ -74,10 +74,14 @@
         gap: 10px;
         align-items: center;
 
+
     }
 
     .contenedor-nav{
         display: flex;
+      
+        gap:20px;
+        align-items: center;
     }
             
     .contenedor-nav h3{
