@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+ 
+}
+
+header{
+    width: 100%;
+}
+
+.nav {
+    display: flex;  
+   background:  #f3f4f4 ;
+   padding: 10px;
+   gap: 10px;
+    align-items: center;
+   
+}
+
+.logo{
+    width: 7%;
+    height: 7%;
+    border: 2px solid #95F9E3;
+    border-radius: 50%;
+}
+
+.contenedor-nav{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.contenedor-subs-nav{
+    display: flex;
+    font-size:1.3rem;
+    gap: 20px;
+    width: 50%;
+   justify-content:stretch;  
+}
+
+
+#map{
+    width: 100%;
+    height: 774px;
+}
+
+.contenedor-nav h3{
+    width: 200px;
+    padding: 9px;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 20px;
+  
+}
+
+.destinos{
+  
+    background-color:  #f4b32d ;
+   
+}
+
+.Mundo{
+   
+    background-color:  #96a4ad ;
+   
+}
+
+.tesoros{
+    background-color:  #1a908b ;
+}
+
+.unesco{
+    background-color:  #dc9a92 ;
+}
+
+
+.title_destino{
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #dc9a92;
+}
+
+.descripcion_destino{
+    font-size: 1rem;
+}
+
+
+.maplibregl-legend-list{
+    font-size: 1.3rem;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.maplibregl-legend-title-label{
+    font-size: 1.4rem;
+ 
+ 
+   
+    border-bottom: 2px solid black;
+}
+
+.maplibregl-legend-onlyRendered-label{
+    font-size: 1.3rem;
+  
+   
+}
+
+.maplibregl-legend-onlyRendered-checkbox{
+    margin-top: 20px;
+}
+
+
+
