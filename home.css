@@ -2,7 +2,7 @@ body{
     background-image: url("https://img.freepik.com/foto-gratis/vista-al-mar-agua_23-2149066236.jpg?t=st=1735926073~exp=1735929673~hmac=6e9e92d67782d51a80d9fdacc5c39fa05a9676e9d82caaa117da92cd3f432a4e&w=826");
     background-size: cover;
     background-repeat: no-repeat;
-    color: rgba(228, 252, 9, 0.725);
+  
     position: absolute;
    z-index: 100;
   overflow: hidden;

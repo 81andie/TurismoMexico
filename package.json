@@ -4,12 +4,17 @@
   "description": "Project Map tourism México",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss -i src/styles/tailwind.css -o public/styles.css --watch",
+    "watch": "watch \"npm run build-css\""
   },
   "repository": {
     "type": "git",
     "url": "TurismoMexico"
   },
   "author": "Andie",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "watch": "^1.0.2"
+  }
 }
