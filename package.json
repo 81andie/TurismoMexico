@@ -4,8 +4,7 @@
   "description": "Project Map tourism México",
   "main": "main.js",
   "scripts": {
-    "build-css": "tailwindcss -i src/styles/tailwind.css -o public/styles.css --watch",
-    "watch": "watch \"npm run build-css\""
+   
   },
   "repository": {
     "type": "git",
@@ -14,7 +13,6 @@
   "author": "Andie",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.4.17",
     "watch": "^1.0.2"
   }
 }
