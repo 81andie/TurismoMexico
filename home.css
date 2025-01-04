@@ -5,15 +5,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url('https://img.freepik.com/foto-gratis/hermoso-monumento-rocoso-imagen-tallada-rostro-humano-selva-vista-primer-plano_613910-21517.jpg?t=st=1735929176~exp=1735932776~hmac=fd9623bb1ca7f9b319b26938d39bd75f272ef01794734e354d6b7f84160f041c&w=826');
-   -webkit-text-stroke-color: aquamarine;
+    background: url('https://images.pexels.com/photos/6942667/pexels-photo-6942667.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load');
+   -webkit-text-stroke-color: rgb(221, 246, 251);
     -webkit-text-fill-color:transparent;
     background-clip: text;
-    filter: drop-shadow(30px 10px 4px #44d5dd5d);
-                
+    filter: drop-shadow(30px 10px 4px #f9f2f65d);
+     
+}
+.container-pirámide{
+    background-image: url("piramide2.png");
 }
 
-.title{
-    font-size:10rem
-  
-}
