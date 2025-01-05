@@ -16,3 +16,10 @@
     background-image: url("piramide2.png");
 }
 
+.sectionExpo{
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/15062516/pexels-photo-15062516/free-photo-of-arte-estatua-iglesia-escultura.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    object-position: bottom;
+}
+
