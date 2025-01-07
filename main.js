@@ -96,9 +96,9 @@ map.on('load', () => {
                 const imagesHtml = imageUrls.map(url => `<img src="${url}" alt="${properties.destino}" style="width: 100%; height: auto; margin-top: 10px;">`).join('');
 
                 const popupContent = `
-                <div style="max-height: 400px; max-width: 400px; overflow-y: auto;">
-                    <h1 class="title_destino">${properties.destino}</h1>
-                    <p class="descripcion_destino">${properties.descrip}</p>
+                <div class="w-52 h-92 overflow-y:auto;">
+                    <h1 class="title_destino text-xl font-light bg-slate-100">${properties.destino}</h1>
+                    <p class="descripcion_destino font-light">${properties.descrip}</p>
                     ${imagesHtml}
                 </div>
             `;
